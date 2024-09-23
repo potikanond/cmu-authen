@@ -1,13 +1,19 @@
 # CMX Authentication Scripts
 
-In this project, there are two parts of authentication processes.
+In this project, there are two parts of authentication processes for Linux machine.
 
 ## Step 1: Authentication
  
-Execute `cmu-authen.sh` bash script to get authentication `token`.
+Make sure that you have `execute` permission on the `cmu-authen.sh` script.
 
 ```bash
-$ ./cmu-authen.sh
+chmod +x cmu-authen.sh
+```
+
+Execute the bash script to get authentication `token`.
+
+```bash
+./cmu-authen.sh
 ```
 
 You will get a result similar to this:
@@ -44,13 +50,13 @@ This `Javascript project` is developed by the `university IT staff`. It is a scr
 Before executing the program this first time. Install necessary Javascript packages by running the following command inside this folder.
 
 ```bash
-$ npm install 
+npm install 
 ```
 
 To run the script, use the following command.
 
 ```bash
-$ npm run start
+npm run start
 ```
 
 The JavaScript program will ask you to enter `<your_cmu_email_account>` and `<your_authentication_token>` from previous step. 
