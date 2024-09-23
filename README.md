@@ -47,7 +47,7 @@ After the authentication, you should be able to access the Internet. You can dow
 
 This `Javascript project` is developed by the `university IT staff`. It is a script for refreshing your internet session automatically using the `token` you received from `Step 1`. 
 
-You need to install `Node.js` in order to run this script. [See details here] (https://github.com/nodesource/distributions/blob/master/README.md)
+You need to install `Node.js` in order to run this script. [See details here](https://deb.nodesource.com/).
 
 Before executing the program this first time. Install necessary Javascript packages by running the following command inside this folder.
 
